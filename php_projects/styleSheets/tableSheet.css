@@ -1,0 +1,91 @@
+.btn-back {
+    font-size: 16px;
+    line-height: 30px;
+    color:rgb(255, 255, 255);
+    background:rgb(172, 0, 0);
+    cursor: pointer;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+.table-wrapper {
+    position: relative;
+    transform: translate (-50%, -50%) !important;
+    height: 100%;
+    margin: 0 10px;
+    padding: 50px;
+    border-radius: 6px;
+    width: auto;
+    box-shadow: rgb(205, 199, 199) 5px 5px 25px;
+
+}
+
+table {
+    width: 100%;
+}
+thead{
+    background: rgb(82, 0, 121);
+    color: white;
+    font-family: raleway;
+    text-align: center;
+    font-size: large;
+   
+}
+
+thead th {
+    text-align: center;
+    padding: 14px;
+}
+
+tbody{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    text-align: center;
+}
+
+tr td {
+    text-align: center;
+    margin:auto;
+}
+
+tbody tr:nth-child(odd) td {
+    background-color: rgb(214, 214, 214);
+}
+
+.footer-column {
+    text-align: center;
+    padding: 10px;
+    margin: 50px 0 0 0;
+    width:full-width;
+    background-color:lightgray;
+    font-size: 16px;
+    color: gray;
+}
+
+#update, #delete {
+    position: relative;
+    padding: 8px;
+    text-align: center;
+    color:#fff;
+    margin:5px ;
+    border-style: none;
+    border-radius: 5px;
+
+}
+td a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#update {
+    background-color: rgb(0, 158, 16)
+
+}
+
+#delete {
+    background-color: rgb(233, 4, 4);
+
+}
